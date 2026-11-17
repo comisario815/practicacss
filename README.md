@@ -14,8 +14,8 @@
 * **`class`:** Es una clase reutilizable que puede aplicarse a varios elementos distintos para darles el mismo estilo (por ejemplo, `.noticia`).
 
 ### 3. ¿Qué diferencia hay entre margin y padding?
-* **`padding`:** Es el espacio de relleno interior situado entre el contenido del elemento y su borde.
-* **`margin`:** Es el espacio exterior situado por fuera del borde que separa ese elemento de los demás elementos vecinos.
+`padding`: Es el espacio de relleno interior situado entre el contenido del elemento y su borde.
+`margin`: Es el espacio exterior situado por fuera del borde que separa ese elemento de los demás elementos vecinos.
 
 ### 4. ¿Para qué sirve `box-sizing: border-box`?
 Sirve para que el navegador incluya el `padding` y el `border` dentro del `width` (ancho) y `height` (alto) establecidos en el elemento. Sin esta propiedad, los rellenos y bordes se suman al tamaño inicial, haciendo las cajas más grandes de lo esperado y descuadrando el diseño.
