@@ -1,0 +1,26 @@
+/* Selector de elemento: aplica fuente a todos los párrafos */
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Selector de clase: da estilo base a cada bloque de noticia */
+.noticia {
+    background-color: lightgray;
+}
+
+/* Selector de ID: centra el texto de la cabecera */
+#cabecera {
+    text-align: center;
+}
+
+/* Selector descendiente: estiliza los títulos h3 dentro de las noticias */
+.noticia h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+/* Selector de agrupación: aplica la misma tipografía a todos los encabezados */
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
