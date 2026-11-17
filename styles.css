@@ -1,7 +1,12 @@
-/* Selector de elemento: aplica fuente y color RGB de fondo */
+/* Ajuste global del modelo de cajas */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(240, 240, 240);
     margin: 0;
+    padding: 20px;
 }
 
 p {
@@ -10,36 +15,63 @@ p {
     color: #333333;
 }
 
-/* Selector de clase: fondo blanco con nombre de color */
-.noticia {
-    background-color: white;
-}
-
-/* Selector de ID: fondo hexadecimal y texto blanco */
 #cabecera {
     background-color: #1e3a8a;
     color: white;
     text-align: center;
+    padding: 25px;
+    margin-bottom: 10px;
 }
 
 #menu {
     background-color: lightgray;
     text-align: center;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
 }
 
-/* Selector descendiente: color de los titulares de noticia */
+/* Estilo general de cajas de noticias */
+.noticia {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #1e3a8a;
+    margin-bottom: 15px;
+}
+
+/* Tres noticias con diferentes valores de padding, border y margin */
+.caja-uno {
+    width: 95%;
+    padding: 15px;
+    border: 2px solid #1e3a8a;
+    margin: 10px auto;
+}
+
+.caja-dos {
+    width: 90%;
+    padding: 25px;
+    border: 4px dashed #b91c1c;
+    margin: 20px auto;
+}
+
+.caja-tres {
+    width: 85%;
+    padding: 30px;
+    border: 3px double green;
+    margin: 25px auto;
+}
+
 .noticia h3 {
     color: #1e3a8a;
     font-size: 22px;
     margin-top: 0;
 }
 
-/* Selector de agrupación: estilo común de encabezados */
 h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Enlaces y etiquetas */
 a {
     color: #b91c1c;
     text-decoration: none;
@@ -50,14 +82,23 @@ a {
     background-color: rgb(220, 230, 250);
     color: #1e3a8a;
     font-size: 12px;
+    padding: 3px 8px;
+    border: 1px solid #1e3a8a;
+}
+
+#destacadas {
+    margin-top: 30px;
 }
 
 #pie {
     background-color: #1e3a8a;
     color: white;
     text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
 
 #pie p {
     color: white;
+    margin: 0;
 }
