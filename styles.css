@@ -1,26 +1,63 @@
-/* Selector de elemento: aplica fuente a todos los párrafos */
+/* Selector de elemento: aplica fuente y color RGB de fondo */
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+}
+
 p {
     font-family: Arial, sans-serif;
     line-height: 1.5;
+    color: #333333;
 }
 
-/* Selector de clase: da estilo base a cada bloque de noticia */
+/* Selector de clase: fondo blanco con nombre de color */
 .noticia {
-    background-color: lightgray;
+    background-color: white;
 }
 
-/* Selector de ID: centra el texto de la cabecera */
+/* Selector de ID: fondo hexadecimal y texto blanco */
 #cabecera {
+    background-color: #1e3a8a;
+    color: white;
     text-align: center;
 }
 
-/* Selector descendiente: estiliza los títulos h3 dentro de las noticias */
+#menu {
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Selector descendiente: color de los titulares de noticia */
 .noticia h3 {
+    color: #1e3a8a;
     font-size: 22px;
     margin-top: 0;
 }
 
-/* Selector de agrupación: aplica la misma tipografía a todos los encabezados */
+/* Selector de agrupación: estilo común de encabezados */
 h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Enlaces y etiquetas */
+a {
+    color: #b91c1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.etiqueta {
+    background-color: rgb(220, 230, 250);
+    color: #1e3a8a;
+    font-size: 12px;
+}
+
+#pie {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+}
+
+#pie p {
+    color: white;
 }
