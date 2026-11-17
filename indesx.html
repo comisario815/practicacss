@@ -10,18 +10,49 @@
     <!-- Ejemplos de elementos de bloque: div, h2, p -->
     <!-- Ejemplos de elementos en línea: span, a, strong -->
 
-    <h2>Últimas noticias</h2>
+    <div id="cabecera">
+        <h1>El Diario SMR</h1>
+        <p>Tu periódico digital de actualidad</p>
+    </div>
 
-    <h3>Avance en procesadores</h3>
-    <p>La <strong>tecnología</strong> cuántica supera nuevos límites. <span>Tecnología</span></p>
-    <a href="#">Leer noticia 1</a>
+    <div id="menu">
+        <a href="#noticias">Últimas noticias</a> |
+        <a href="#destacadas">Destacadas</a> |
+        <a href="#pie">Contacto</a>
+    </div>
 
-    <h3>Final del campeonato</h3>
-    <p>El equipo local logra una victoria histórica en el <strong>deporte</strong> nacional. <span>Deportes</span></p>
-    <a href="#">Leer noticia 2</a>
+    <div id="noticias">
+        <h2>Últimas noticias</h2>
 
-    <h3>Estreno en cines</h3>
-    <p>La nueva película rompe récords de taquilla en <strong>entretenimiento</strong>. <span>Entretenimiento</span></p>
-    <a href="#">Leer noticia 3</a>
+        <div class="noticia caja-uno">
+            <h3>Avance en procesadores</h3>
+            <p>La <strong>tecnología</strong> cuántica supera nuevos límites. <span class="etiqueta">Tecnología</span></p>
+            <a href="#">Leer noticia 1</a>
+        </div>
+
+        <div class="noticia caja-dos">
+            <h3>Final del campeonato</h3>
+            <p>El equipo local logra una victoria histórica en el <strong>deporte</strong> nacional. <span class="etiqueta">Deportes</span></p>
+            <a href="#">Leer noticia 2</a>
+        </div>
+
+        <div class="noticia caja-tres">
+            <h3>Estreno en cines</h3>
+            <p>La nueva película rompe récords de taquilla en <strong>entretenimiento</strong>. <span class="etiqueta">Entretenimiento</span></p>
+            <a href="#">Leer noticia 3</a>
+        </div>
+    </div>
+
+    <div id="destacadas">
+        <h2>Noticias destacadas</h2>
+        <div class="noticia">
+            <h3>Especial Inteligencia Artificial</h3>
+            <p>Análisis completo sobre el impacto de la IA en los ciclos formativos.</p>
+        </div>
+    </div>
+
+    <div id="pie">
+        <p>&copy; 2026 El Diario SMR - Todos los derechos reservados</p>
+    </div>
 </body>
 </html>
